@@ -1,5 +1,14 @@
-# File-Downloads-Automator
+# Desktop De-cluttering Program in Python
 
-Automate your Desktop File Management and declutter your Downloads Folder. This app will automatically organise & mve your downloads into folders based on file tyepe.
+This is a Desktop de-cluttering program by @tuomaskivioja which I have modified for my own use. Here are my modifications:
+- If an organizational subfolder doesn't exist already, I create it
+- I specifically put screenshots in their own folder since they're the main source of my desktop clutter
+- I removed code for audio files since I rarely ever work with those
+- Using on_any_event instead of on_modified
+  
+This was a great way to learn to use watchdog and general scripting practices on Mac OS. 
 
-<img width="1202" alt="Screenshot 2022-05-22 at 09 10 30" src="https://user-images.githubusercontent.com/86713957/169681711-782028c7-7e6e-417f-950a-ab8a4777479b.png">
+Check out my demo video below! I start the program, take a screenshot, place it on my desktop and the code cleans up all loose files on my desktop.
+
+https://github.com/user-attachments/assets/cb5752b2-6b5c-4802-a8a7-75031118b780
+
